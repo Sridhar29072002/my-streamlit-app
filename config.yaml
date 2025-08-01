@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    sridhar:
+      email: sridhar@example.com
+      name: Sridhar
+      password: '$2b$12$Ff89Jj7vwzcABCf5J0.2AuUKvIHcjGBGHIEMd.Q8dMT.RSq5kmfoq'  # hashed version of "1234"
+
+cookie:
+  name: my_cookie
+  key: some_random_key
+  expiry_days: 30
+
+
+
+
