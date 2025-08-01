@@ -26,8 +26,8 @@ if st.session_state["authentication_status"]:
     authenticator.logout("Logout", "sidebar")
 
     # Excel operations
-    file_path = r'C:\Users\Sridhar\Documents\producttrail\product trail.xlsx'
-
+    file_path = r"product_trail.xlsx"
+    
     df = pd.read_excel(file_path, engine='openpyxl')
     date_columns = [col for col in df.columns if col != 'prod']
     formatted_dates = [pd.to_datetime(col).strftime('%d-%m-%Y') for col in date_columns]
